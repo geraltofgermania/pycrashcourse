@@ -1,0 +1,26 @@
+Variables and Simple Data Types
+
+Traceback: when you make a mistake in your code the interpreter provides a traceback to help you identify where
+the mistake occured.
+
+Useful string methods:
+.title() prints the string with the first letter of each word in upper case
+.lower() prints all lower case
+.upper() prints all upper case
+
+Using f-strings
+f-strings (format strings) are usefull since you don't have to use + simbol to concatenate
+example:
+
+name = 'john'
+last_name = 'doe'
+full_name = f'{name} {last_name}'
+
+Scape character '\'
+examples:
+tab \t
+new line \n
+new line and tab \n\t
+
+Stripping white space
+
