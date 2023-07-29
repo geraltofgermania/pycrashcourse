@@ -24,3 +24,7 @@ new line and tab \n\t
 
 Stripping white space
 
+.rstrip() strips white space from the right end of the string
+.lstrip() strips left end of the string
+.strip() strips both ends
+
