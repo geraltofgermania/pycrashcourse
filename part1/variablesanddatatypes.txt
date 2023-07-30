@@ -1,14 +1,14 @@
-Variables and Simple Data Types
+# Variables and Simple Data Types
 
 Traceback: when you make a mistake in your code the interpreter provides a traceback to help you identify where
 the mistake occured.
 
-Useful string methods:
+#Useful string methods:
 .title() prints the string with the first letter of each word in upper case
 .lower() prints all lower case
 .upper() prints all upper case
 
-Using f-strings
+#Using f-strings
 f-strings (format strings) are usefull since you don't have to use + simbol to concatenate
 example:
 
@@ -16,24 +16,24 @@ name = 'john'
 last_name = 'doe'
 full_name = f'{name} {last_name}'
 
-Scape character '\'
+#Scape character '\'
 examples:
 tab \t
 new line \n
 new line and tab \n\t
 
-Stripping white space
+#Stripping white space
 
 .rstrip() strips white space from the right end of the string
 .lstrip() strips left end of the string
 .strip() strips both ends
 
-Removing the prefix
+#Removing the prefix
 
 .removeprefix("prefix to remove")
 .removesuffix("suffix to remove")
 
-Numbers
+#Numbers
 
 to represent exponents use two muliplication symbols:
 	>>>3 ** 2
@@ -57,5 +57,18 @@ to make them more readable:
 	>>>1000000
 The interpreter ignores the underscores, they are simply there to make the number
 more humanly readable. This works for both integers and floats.
+
+#Multiple Assignment
+
+You can initialize variables in a single lines by separating them with commas
+
+	>>>x, y, z = 0, 0, 0
+
+#Constants
+
+Python does not have a constants type but programmers use all capitalt letters to
+denote variables whose value does not change.
+
+	>>>MAX_THREADS = 15
 
 
