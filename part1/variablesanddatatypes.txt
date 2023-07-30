@@ -28,3 +28,34 @@ Stripping white space
 .lstrip() strips left end of the string
 .strip() strips both ends
 
+Removing the prefix
+
+.removeprefix("prefix to remove")
+.removesuffix("suffix to remove")
+
+Numbers
+
+to represent exponents use two muliplication symbols:
+	>>>3 ** 2
+	>>>9
+
+Floats = decimal numbers because the decimal point can be at any position in a number
+When working with floats you may get unexpected results for example:
+	>>>3 * 0.1
+	>>>0.3000000000004
+This is because Python tries to give the most accurate answer, this is easy to deal
+with and of little concern.
+
+When you divide any two numbers, even if they are integers that result in a whole
+number when divided, you'll always get a float.
+When you do any operation mixing a float and an integer you'll always get a float.
+
+When typing long numbers in python code you can group numbers using the underscore
+to make them more readable:
+	>>>money = 1_000_000
+	>>>print(money)
+	>>>1000000
+The interpreter ignores the underscores, they are simply there to make the number
+more humanly readable. This works for both integers and floats.
+
+
