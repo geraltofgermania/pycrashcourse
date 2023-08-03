@@ -1,0 +1,9 @@
+A way to generate lists without the need of several lines of code is a list comprehension. This way we can
+combine the declaration of the list, the expression we want to use for each individual object, and the for loop
+in a single line. Each value will be automatically appended to the list. Example of list comprehension.
+
+squares = [i**2 for i in range(0,11)]
+
+No colon or comas are needed. Here is an example of a list of strings
+
+strings = [f"number: {i}" for i in range(0, 21)]
