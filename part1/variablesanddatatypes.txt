@@ -71,4 +71,9 @@ denote variables whose value does not change.
 
 	>>>MAX_THREADS = 15
 
+tuples are techin defiened by the presence of a coma. The parenthesis make them more readable
+and easier to work with. So if you were to define a tuple with only one item, you would:
 
+my_tuple = (3,)
+
+The trailing coma must be included even though it is only one item. 
